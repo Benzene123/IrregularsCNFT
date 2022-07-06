@@ -1,0 +1,440 @@
+
+
+*{
+    margin: 0;
+    padding: 0px;
+ /***   font-family: 'Arvo', serif;
+font-family: 'Poppins', sans-serif;***/
+}
+body {
+    background-color: black;
+}
+strong {
+    font-family: 'Poppins', sans-serif;
+}
+h3 {
+    font-family:  'Arvo', serif;
+    letter-spacing: 0.3rem;
+}
+
+.text {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+}
+#one {
+    background-color: black;
+    background-image: url("images/the\ irregulars-01.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 40%;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+.one-a {
+    padding: 30px;
+    text-align: justify;
+    background-color: white;
+    
+}
+
+
+span {
+    color: #87d4f8;
+    font-size: 40px;
+    padding: 0px 25px;
+
+  
+}
+span img {
+    border-radius: 6px; 
+    width: 20%;
+    
+}
+.one-a i {
+    float: right;
+    color: #0391d3;
+    padding: 20px;
+}
+
+.img-1 {
+     border-radius: 10px; 
+     width: 20%;
+     background-color: white;
+} 
+.sideBar {
+    height: 100vh;
+    width: 0px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to left, #7ec7e8, #0391d3);
+    color: white;
+    font-weight: bold;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+   
+}
+
+.sideBar a {
+    text-align: left;
+    padding: 10px;
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    transition: 0.3s;
+    padding-left: 25px;
+    
+}
+
+.sideBar a:hover {
+    color: white;
+    opacity: 0.5;
+    font-family: 'Poppins', sans-serif;
+}
+
+.closebtn {
+    position: absolute;
+    top: 10px;
+    right: 25px;
+}
+
+/**********SECTION 2**********/
+
+#two {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding-bottom: 50px;
+   
+
+}
+#two img {
+    width: 70%;
+    height: auto;
+    border-radius: 8px;
+}
+h1 {
+    padding: 30px 0px;
+    font-size: 50px;
+    letter-spacing: 0.5rem;
+    text-align: center;
+    font-family: 'Arvo', serif;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.two-b {
+    width: 50%;
+}
+.two-c {
+    width: 40%;
+    text-align: left;
+    padding: 80px 50px 0px 0px;
+    line-height: 2;
+    word-spacing: 0.3rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+
+.flex {
+    display: flex;
+    justify-content: center;
+    padding: 20px 15px 0px;
+    flex-wrap: wrap;
+}
+
+
+/************* SECTION THREE ******/
+
+
+#three {
+    padding: 50px 25px 20px;
+    background-image: linear-gradient(to bottom, #7ec7e8, #0391d3)
+}
+#three h1 {
+    color: white;
+}
+.card {
+    margin: 20px 0px;
+    color: white;
+    height: 300px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+}
+.card-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+
+}
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+/******** SECTION FOUR *****/
+
+#four {
+    background-color: black;
+    color: white;
+   font-family: 'Poppins', sans-serif;
+}
+#four img {
+    width: 70%;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.four-a {
+    display: flex;
+    justify-content: center;
+
+}
+#four h3 {
+    color: #0391d3;
+}
+.image {
+    text-align: center;
+    width: 27%;
+    margin: 20px 20px 0px;
+    padding: 20px 25px 0px;
+}
+
+
+
+/****** SECTION FIVE *****/
+
+#five {
+    text-align: center;
+    color: white;
+    padding: 0px 50px 50px;
+   background-image: linear-gradient(to bottom, black, rgb(94, 94, 94), rgb(0, 0, 0));
+}
+#five a {
+    color: #0391d3;
+  
+}
+.badge {
+    margin: 5px;
+    padding: 15px 0px 0px;
+    width: 50%;
+    text-decoration: none;
+}
+.five-c {
+    width: 50%;
+    border-radius: 10px;
+    margin: 30px 30px 100px;
+}
+.five-a {
+    display: flex;
+    justify-content: center;
+
+}
+.five-a img {
+    width: 20%;
+    border-radius: 7px;
+    margin: 15px 100px;
+  
+}
+.carousel {
+    margin-top: 100px;
+}
+
+
+
+/****** SECTION SIX ***/
+
+#six {
+    padding: 50px;
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+  
+}
+/*******SECTION SEVEN AND FOOTER *******/
+#seven {
+    color: white;
+    background-image: linear-gradient(to right, rgb(94, 66, 14),rgb(155, 124, 65), rgb(44, 42, 42) ,rgb(73, 20, 73),rgb(27, 25, 25) , rgb(22, 21, 21), rgb(71, 68, 68));
+    padding: 50px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+#seven p {
+   font-size: 18px;
+}
+#seven ul {
+    list-style: none;
+}
+#seven h4 {
+    font-weight: 800;
+ }
+.tier img {
+    width: 80%;
+    margin: 30px 0px;
+    border-radius: 10px;
+    -webkit-transition: -webkit-transform 2s;
+    transition: transform 3s;
+}
+.tier img:hover {
+    -webkit-transform: rotateY(360deg); /* Safari */
+    transform: rotateY(360deg);
+}
+.og-cards {
+    display: flex;
+    justify-content: center;
+    padding: 30px 0px;
+}
+
+footer {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+    color: rgb(155, 151, 151);
+    padding-top: 30px;
+}
+
+
+/****** MEDIA QUERIES  ******/
+
+@media screen and (max-width:768px) {
+    h1 {
+        padding: 30px 0px;
+        font-size: 25px;
+        text-align: center;
+        letter-spacing: normal;
+    }
+    span img {
+        border-radius: 6px; 
+        width: 35%;
+        
+    }
+    .one-a {
+        padding: 20px;
+    }
+    span {
+        font-size: 25px;
+        padding: 0px;
+    }
+    i.fab {
+        padding: 10px;
+        font-size: 20px;
+    }
+    #one {
+        background-size: 100%;
+    }
+    .card {
+        height: 350px;
+    }
+
+    .flex {
+        display: block;
+        padding: 20px 10px;
+    }
+
+    #two img {
+        width: 90%;
+        height: auto;
+        border-radius: 8px;
+        order: 2;
+    }
+    .two-b {
+        width: 100%; 
+    }
+    .two-c {
+        width: 100%; 
+        text-align: center;
+        padding: 30px 30px 10px;
+    }
+    #four {
+        padding: 20px;
+    }
+    .four-a {
+        display: block;
+        justify-content: space-around;
+    }
+    .image {
+        width: 80%;
+        padding: 10px;
+        height: auto;
+        margin: 25px auto;
+    }
+    #four {
+        padding: 0px 25px;
+    }
+    #four img  {
+        width: 70%;
+    }
+    
+    .five-c {
+        width: 80%;
+        margin-bottom: 50px;
+    }
+    #five {
+        padding: 20px 0px;
+    }
+    .badge {
+        margin: 5px;
+        padding: 10px 0px 0px;
+        width: 80%;
+    }
+    .five-a img {
+        width: 48%;
+        border-radius: 7px;
+        margin: 2.5px;
+    }
+
+    #six {
+        padding: 50px 15px;
+    }
+    #seven {
+        color: white;
+        background-image: linear-gradient(to bottom, rgb(94, 66, 14),rgb(155, 124, 65), rgb(44, 42, 42) ,rgb(73, 20, 73),rgb(27, 25, 25) , rgb(22, 21, 21), rgb(71, 68, 68));
+        padding: 25px;
+        text-align: center;
+    }
+    .tier img {
+        width: 90%;
+        margin: 20px 0px;
+        border-radius: 10px;
+    }
+    .og-cards {
+        display: block;
+        justify-content: center;
+    }
+    #seven ul {
+        list-style: circle;
+        word-wrap: break-word;
+        text-align: left;
+    }
+
+
+}
+
+@media screen and (max-width: 372px) {
+    .card {
+        height: 480px;
+    }
+    #one {
+        background-size: 90%;
+    }
+    span img {
+        border-radius: 6px; 
+        width: 40%;
+        
+    }
+    span {
+        font-size: 25px;
+        padding: 0px;
+    }
+    .one-a {
+        padding: 20px;
+    }
+}
