@@ -1,5 +1,6 @@
-var nav = document.querySelector("#sideBar")
 
+
+var nav = document.querySelector("#sideBar")
 
 function openNav() {
   nav.style.width = "230px"; 
@@ -8,3 +9,4 @@ function openNav() {
 function closeNav() {
     nav.style.width = "0px";
 }
+
