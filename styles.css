@@ -26,7 +26,7 @@ h3 {
 }
 #one {
     background-color: black;
-    background-image: url(../irregulars/images/the\ irregulars-01.png);
+    background-image: url("images/the\ irregulars-01.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 30%;
