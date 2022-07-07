@@ -337,7 +337,7 @@ footer {
         background-size: 100%;
     }
     .card {
-        height: 350px;
+        height: 300px;
     }
 
     .flex {
@@ -426,7 +426,7 @@ footer {
 
 @media screen and (max-width: 372px) {
     .card {
-        height: 480px;
+        height: 320px;
     }
     #one {
         background-size: 90%;
