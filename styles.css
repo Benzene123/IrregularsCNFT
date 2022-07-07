@@ -158,36 +158,6 @@ h1 {
     flex-wrap: wrap;
 }
 
-
-/************* SECTION THREE ******/
-
-
-#three {
-    padding: 50px 25px 20px;
-    background-image: linear-gradient(to bottom, #7ec7e8, #0391d3);
-}
-#three h1 {
-    color: white;
-}
-.card {
-    margin: 20px 0px;
-    color: white;
-    height: 300px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    font-size: 17px;
-}
-.card-title {
-    font-family: 'Poppins', sans-serif;
-    font-size: 25px;
-    font-weight: 600;
-
-}
-.row {
-    display: flex;
-    justify-content: center;
-}
-
 /******** SECTION FOUR *****/
 
 #four {
@@ -255,16 +225,6 @@ h1 {
     margin-top: 100px;
 }
 
-
-
-/****** SECTION SIX ***/
-
-#six {
-    padding: 50px;
-    font-family: 'Poppins', sans-serif;
-    background-color: white;
-  
-}
 /*******SECTION SEVEN AND FOOTER *******/
 #seven {
     color: white;
