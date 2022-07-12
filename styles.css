@@ -236,6 +236,9 @@ h1 {
 #seven p {
    font-size: 18px;
 }
+#demo {
+    font-weight: 600;
+}
 #seven ul {
     list-style: none;
 }
