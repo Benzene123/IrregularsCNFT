@@ -10,7 +10,7 @@ function closeNav() {
     nav.style.width = "0px";
 }
 
-var countDownDate = new Date("july 20, 2022 17:01:00").getTime();
+var countDownDate = new Date("july 20, 2022 18:01:00").getTime();
 
 var x = setInterval(function(){
 
