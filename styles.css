@@ -236,6 +236,10 @@ h1 {
 #seven p {
    font-size: 18px;
 }
+.last {
+    width: 50%;
+    margin: 20px auto;
+}
 #demo, #demo3 {
     font-weight: 600;
 }
@@ -368,6 +372,9 @@ footer {
         background-image: linear-gradient(to bottom, rgb(94, 66, 14),rgb(155, 124, 65), rgb(44, 42, 42) ,rgb(73, 20, 73),rgb(27, 25, 25) , rgb(22, 21, 21), rgb(71, 68, 68));
         padding: 25px;
         text-align: center;
+    }
+    .last {
+        width: 100%;
     }
     .tier img {
         width: 90%;
