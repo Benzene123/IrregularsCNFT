@@ -1,37 +1,78 @@
 
+window.sr = ScrollReveal();
+sr.reveal(".navbar", {
+    duration: 2000,
+    origin: "bottom"
+});
+sr.reveal(".p", {
+    duration: 2000,
+    origin: "left",
+    distance: "100px"
+});
+sr.reveal(".two-a", {
+    duration: 2000,
+    origin: "left",
+    distance: "200px",
+    viewFactor: 0.3
+});
+sr.reveal(".z", {
+    duration: 2000,
+    origin: "top",
+    distance: "100px",
+    viewFactor: 0.3,
+    delay: "250",
+});
+sr.reveal(".r", {
+    duration: 2000,
+    origin: "right",
+    distance: "100px",
+    viewFactor: 0.3,
+    delay: "250",
+});
+sr.reveal(".heading", {
+    duration: 2000,
+    origin: "bottom",
+    distance: "100px",
+    delay: "250",
+    viewFactor: 0.3
+});
+sr.reveal(".q", {
+    duration: 2000,
+    origin: "bottom",
+    distance: "100px",
+    viewFactor: 0.2,
+    delay: "250",
+});
 
-var nav = document.querySelector("#sideBar")
+var charts = document.getElementById("myChart");
+Chart.defaults.font.size = 22;
+Chart.defaults.color = "#000"
 
-function openNav() {
-  nav.style.width = "230px"; 
-}
 
-function closeNav() {
-    nav.style.width = "0px";
-}
+let labels = ["Staking(78%)", "Giveaway(3%)", "Teams(4.5%)", "Com. Treasury(6%)", "Airdrop(7%)", "Partners(1%)", "Devs(0.5%)"];
+let itemData = [78,3,4.5,6,7,1,0.5];
 
-var countDownDate = new Date("july 20, 2022 18:01:00").getTime();
+const data = {
+    labels: labels,
+    datasets: [{
+     data: itemData,
+     backgroundColor: ["rgb(253,97,108)", "rgb(188,158,222)", "rgb(255,247,0)","rgb(130,196,255)","rgb(174,255,178)","rgb(255,215,154)","rgb(0, 255, 42)"],
+    }]
+};
+const config = {
+    type: "pie",
+    data: data,
+    options: {
+        plugins: {
+            legend: {
+                display: true,
+               position: 'right',
+              }    
+        }
+    }
+};
 
-var x = setInterval(function(){
-
-  var now = new Date().getTime();
-
-  var distance = countDownDate - now;
-
-  var days = Math.floor(distance / (1000 * 60  *60 * 24));
-  var hours = Math.floor((distance % (1000 * 60 *60 * 24)) / (1000 * 60 * 60));
-  var hour = Math.floor((distance % (1000 * 60 *60 * 24)) / (1000 * 60 * 60)) + 1;
-  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-  var seconds = Math.floor((distance % (1000 * 60)) / (1000));
-
-  document.getElementById("demo").style.fontSize = "25px"
-  document.getElementById("demo3").style.fontSize = "25px"
-  document.getElementById("demo").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
-  document.getElementById("demo3").innerHTML = days + "d " + hour + "h " + minutes + "m " + seconds + "s ";
-  
-  if (distance < 0) {
-    clearInterval(x);
-    document.getElementById("demo").innerHTMl = "MINTING HAS STARTED";
-  }
-}, 1000);
-
+const pieChart = new Chart(
+     charts,
+    config
+);
