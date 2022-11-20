@@ -5,6 +5,7 @@ body {
 strong {
     color: rgb(255,170,1);
     font-size: 20px;
+    font-weight: 700;
 }
 a {
     color: rgb(255,170,1);
@@ -29,16 +30,16 @@ a {
     width: 5%;
 }
 .navbar {
-    padding: 20px 15px 15px;
+    padding: 20px 10px 15px;
     width: 100vw;
     background-color: rgb(8, 8, 27);
     
 }
 .nav-link {
-    margin: 0px 12px;
-    font-size: 20px;
-    font-weight: 400;
-    opacity: 0.7;     
+    margin: 0px 4px;
+    font-size: 18px;
+    font-weight: 300;
+    opacity: 0.9;     
 }
 .nav-link:hover, .nav-link:focus {
     background-color: white;
@@ -46,7 +47,7 @@ a {
     opacity: 1;
 }
 .navbar-brand {
-    font-size: 30px;
+    font-size: 27px;
     font-weight: bold;
 }
 .navbar-nav {
@@ -129,14 +130,23 @@ form {
 }
 
 .heading {
+    font-family: 'Bevan', cursive;
     font-size: 60px;
-    font-weight: 800;
+    font-weight: 400;
     text-align: center;
     margin-bottom: 50px;
     text-shadow: -2px 0 #fff, 0 2px #fff, 2px 0 #fff, 0 -2px #fff;
     -moz-text-shadow: -2px 0 #fff, 0 2px #fff, 2px 0 #fff, 0 -2px #fff;
     -webkit-text-shadow: -2px 0 #fff, 0 2px #fff, 2px 0 #fff, 0 -2px #fff;
     
+}
+h2,h3 {
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 400;
+}
+h4,p {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 300;
 }
 #TWO h1 {
     color: rgb(255,170,1);
@@ -857,10 +867,10 @@ width: 47%;
     display: none;
   }
   .navbar {
-    padding: 20px 10px 15px;
+    padding: 20px 5px 15px;
   }
   .nav-link {
-    margin: 0px 8px;
+    margin: 0px 3px;
   }
   .two-b {
     width: 80%;
